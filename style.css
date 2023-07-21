@@ -398,7 +398,7 @@ video{
   width: 65%;
 }
 .skills .skills-content .right .js::before{
-  width: 80%;
+  width: 70%;
 }
 .skills .skills-content .right .design::before{
   width: 75%;
@@ -656,7 +656,7 @@ footer span a:hover{
   font-size: 20px;
   margin: 0 auto 20px;
   cursor: pointer;
-}\
+}
 
 
 /* media query */
