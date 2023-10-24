@@ -415,6 +415,7 @@ video{
   content: "what I worked on";
 }
 .projects{
+  /* margin-top: -13%; */
   background: #000;
   color: #fff;
 }
@@ -477,57 +478,7 @@ video{
   background: crimson!important;
 }
 
-/* blogs section styling */
-.blogs{
-  color:#fff;
-  background: #111;
-}
-.blogs.title::before{
-  background: #fff;
-}
-.blogs .title::after{
-  background: #111;
-  content: "what I write about";
-}
-.blog-content{
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-  height: 50vh;
-}
-.blogs .blog-content .card{
-  width: calc(33% - 20px);
-  background: #222;
-  text-align: center;
-  border-radius: 6px;
-  padding: 50px 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.blogs .blog-content .card:hover{
-  background: crimson;
-}
-.blogs .blog-content .card .box{
-  width: 100%;
-  height: 45vh;
-  transition: all 0.3s ease;
-}
-.blogs .blog-content .card:hover .box{
-  transform: scale(1.05);
-}
-.blogs .blog-content .card i{
-  font-size: 50px;
-  color: crimson;
-  transition: color 0.3s ease;
-}
-.blogs .blog-content .card:hover i{
-  color: #fff;
-}
-.blogs .blog-content .card .text{
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
+
 
 /* contact section styling */
 .contact .title::after{
