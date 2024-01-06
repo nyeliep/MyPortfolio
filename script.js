@@ -24,7 +24,7 @@ $(document).ready(function(){
   });
 
   var typed = new Typed(".typing",{
-    strings: ["Graphic", "Graphic Designer","Graphic Designer"],
+    strings: ["Graphic", "Designer","Graphic "],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
