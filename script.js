@@ -24,14 +24,14 @@ $(document).ready(function(){
   });
 
   var typed = new Typed(".typing",{
-    strings: ["Developer", "Software","Developer"],
+    strings: ["Graphic", "Graphic Designer","Graphic Designer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
   });
 
   var typed = new Typed(".typing-2",{
-    strings: ["Sofware Developer", "Software Developer","Designer"],
+    strings: ["Graphic Designer", "Graphic Designer", "Graphic Designer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
